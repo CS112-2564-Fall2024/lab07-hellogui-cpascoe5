@@ -28,7 +28,12 @@ public class HelloApplication extends Application  { //inheriting core functiona
 
         primaryStage.show();
 
+        Label label = new Label();
+        label.setText("Hello GUI World");
+
+
     }
+
 
     // TODO: follow steps 2-9 in README.md to create a start method
 
